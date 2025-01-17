@@ -38,9 +38,11 @@ export default function App() {
             {/* Left column with sticky positioning on desktop */}
             <div className="md:sticky md:top-8 space-y-4 self-start">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-[#13285b]">
-                Empire Wind 1, de Equinor, está previsto como el primer parque eólico marítimo de la ciudad de Nueva York.
+                <a href="https://newsongoing.com/methanol-ammonia-hybrid-engine-revolution/3747/">
+                El motor mezclado metanol-amonia por MAN Energy Solutions ha causado un revuelo en la industria marina.
+                </a>
               </h2>
-              <p className="text-gray-600">Enero 14, 2025 • Issue #152</p>
+              <p className="text-gray-600">Enero 17, 2025 • Boletín #103</p>
             </div>
 
             {/* Right column with sections */}
@@ -54,21 +56,26 @@ export default function App() {
                   {[
                     {
                       id: 'empresas1',
-                      text: "Empire Wind 1, de Equinor, está previsto como el primer parque eólico offshore de la ciudad de Nueva York. Este proyecto está a 15-30 millas al sureste de Long Island, tiene 80.000 acres y una capacidad contratada de 810 MW. El proyecto se ha estimado para generar electricidad limpia para medio millón de hogares en Nueva York.",
-                      link: 'https://www.ecoticias.com/en/new-york-invest-1-billion-wind-energy/10437/'
+                      text: "El hidrógeno es inflamable, inestable y de baja densidad, por lo que es difícil de manejar y costoso de transportar como gas o líquido. Mientras países como Estados Unidos están gastando miles de millones para refinar los métodos de transporte tradicionales, Australia ha encontrado una solución innovadora y rentable.",
+                      link: 'https://www.ecoticias.com/en/hydrogen-powder-americas-great-failure/10578/'
                     },
                     {
                       id: 'empresas2',
-                      text: "“Storage, Renewable and Electric Vehicles Integration Forum” se celebrará en febrero. Las principales empresas participan del evento virtual internacional. La inscripción ya esta abierta y la asistencia es gratuita.",
-                      link: 'https://energiaestrategica.es/las-principales-empresas-participaran-del-evento-virtual-storage-renewable-and-electric-vehicles-integration-forum/'
+                      text: "El 18 y 19 de febrero, se llevará a cabo el evento virtual ‘Storage, Renewable and Electric Vehicles Integration Forum’ Participarán empresas como Yingli, Chemik, RetailSonar, Helonext, Veltium y Black&Veatch. Inscripción gratuita.",
+                      link: 'https://energiaestrategica.es/renovables-movilidad-electrica/'
                     },
                     {
                       id: 'empresas3',
+                      text: "El motor eléctrico Dark Matter es considerado el motor de categoría automotriz más potente del mundo, utilizando una tecnología única de seis fases. Con un impresionante motor de 800 caballos de fuerza y 922 lb-pie de par, mientras pesa sólo 40 kg, la Materia Oscura es aclamada como el motor eléctrico más poderoso del mundo. La Materia Oscura reemplaza al motor anterior utilizado en la Gemera, llamado el Quark.",
+                      link: 'https://www.ecoticias.com/en/box-dark-matter-engine-changes-evs/10510/'
+                    },
+                    {
+                      id: 'empresas4',
                       text: "La antimateria es naturalmente lo contrario o la “imagen de espejo” de la materia normal. Todo tipo de materia tiene la misma cantidad de antimateria justo una carga opuesta de la partícula de la materia. La materia y la antimateria se encuentran de nuevo en fines catastróficos.",
                       link: 'https://newsongoing.com/200-quintillion-per-gram-huge-explosion/3743/'
                     },
                     {
-                      id: 'empresas4',
+                      id: 'empresas5',
                       text: "España ha avanzado mucho en generación renovable, contando en enero de 2025 con casi 131.000 MW de capacidad instalada. Schneider Electric ayuda a las empresas de gestión de energía a adaptar su camino.",
                       link: 'https://www.interempresas.net/Energia/Articulos/583984-El-futuro-energetico-flexibilidad-tecnologias-y-mercados-en-2025.html'
                     }
@@ -97,22 +104,22 @@ export default function App() {
                   {[
                     {
                       id: 'mercado1',
-                      text: "Fiat Chrysler Automobiles (FCA) ha lanzado uno de los recuerdos más extensos de los últimos años, con más de 340.000 automóviles. Este recuerdo afectó a varios modelos, incluyendo el Alfa Romeo, Fiat, y Jeep, y el defecto fue descrito como muy peligroso. Se insta a los propietarios de tales coches a comprobar si sus coches están entre los productos retirados y conseguir que sus vehículos se arreglen.",
-                      link: 'https://www.ecoticias.com/en/fiat-chrysler-airbag-recall-vehicles/10434/'
+                      text: "El precio de Bitcoin ha experimentado una volatilidad significativa, moviéndose dentro de un canal paralelo descendente desde su máximo histórico de 108.364 dólares el 17 de diciembre de 2024. El 7 de enero de 2025, Bitcoin alcanzó un máximo más bajo, reforzando la línea de resistencia del canal, y apareció un candelabro bajista. El precio continuó bajando, alcanzando un mínimo de 89.614 dólares el 13 de enero de 2025. Sin embargo, Bitcoin recuperó rápidamente su posición el mismo día.",
+                      link: 'https://www.ecoticias.com/en/unexpected-rebound-in-bitcoin/10550/'
                     },
                     {
                       id: 'mercado2',
-                      text: "Según la investigación de GoBankingRates, estos coches deben estar en su radar para no estar comprando en cualquier momento pronto si usted vive en un estado que experimenta inviernos duros. Ciertos vehículos pueden no funcionar bien en condiciones invernales debido a su transmisión, mala tracción, o historia de problemas de fiabilidad.",
-                      link: 'https://www.ecoticias.com/en/3-cars-not-to-buy-in-winter/10425/'
+                      text: "La comercializadora E.MILUZ fue inhabilitada en 2025 por incumplimientos financieros, afectando a sus clientes, que fueron transferidos a empresas de referencia. Durante 2024 se registraron 43 nuevas altas en el mercado eléctrico.",
+                      link: 'https://energiaestrategica.es/mercado-electrico-comercializadora/'
                     },
                     {
                       id: 'mercado3',
-                      text: "Italia impulsa la industria con 'Energy Release': energía renovable a 65 €/MWh. Mary Polovtseva, Analista de Políticas Renovables, analiza el impacto. El Energy Release impactará de manera significativa el mercado italiano de GOs.",
+                      text: "Italia impulsa la industria con ‘Energy Release’: energía renovable a 65 €/MWh. Mary Polovtseva, Analista de Políticas Renovables, analiza el impacto. El Energy Release impactará de manera significativa el mercado italiano de GOs.",
                       link: 'https://energiaestrategica.es/energy-release-gse/'
                     },
                     {
                       id: 'mercado4',
-                      text: "Los edificios representan el 40% del consumo de energía final y el 36% de las emisiones de CO2 en la Unión Europea. En España, la mayoría del parque inmobiliario es antiguo y necesita reformas urgentes. Integrar herramientas como los Sistemas de Gestión Energética de Edificios (BEMS) es fundamental para optimizar",
+                      text: "Los edificios representan el 40% del consumo de energía final y el 36% de las emisiones de CO2 en la Unión Europea. En España, la mayoría del parque inmobiliario es antiguo y necesita reformas urgentes. Integrar herramientas como los Sistemas de Gestión Energética de Edificios (BEMS) es fundamental.",
                       link: 'https://www.interempresas.net/Energia/Articulos/583112-Claves-de-la-gestion-de-las-instalaciones-de-edificios.html'
                     }
                   ].map(item => (
@@ -140,8 +147,8 @@ export default function App() {
                   {[
                     {
                       id: 'financiaciones1',
-                      text: "Fiat Chrysler Automobiles (FCA) ha lanzado uno de los recuerdos más extensos de los últimos años, con más de 340.000 automóviles. Este recuerdo afectó a varios modelos, incluyendo el Alfa Romeo, Fiat, y Jeep, y el defecto fue descrito como muy peligroso. Se insta a los propietarios de tales coches a comprobar si sus coches están entre los productos retirados y conseguir que sus vehículos se arreglen.",
-                      link: 'https://www.ecoticias.com/en/fiat-chrysler-airbag-recall-vehicles/'
+                      text: "Bill Gates apuesta por la perforación geotérmica profunda para liberar energía ilimitada y sin emisiones de carbono, apoyando a Fervo Energy, que busca generar 2.000 MW de energía geotérmica en Utah para 2030.",
+                      link: 'https://www.ecoticias.com/energias-renovables/bill-gates-fervo-geotermia'
                     }
                   ].map(item => (
                     <a
@@ -170,11 +177,6 @@ export default function App() {
                       id: 'regulación1',
                       text: "El motor puede reducir las emisiones de CO2 en aproximadamente un 50% que cuando utiliza combustibles convencionales. El motor también permite la variabilidad de los dos combustibles de una manera que depende de los requisitos fluctuantes del mercado.",
                       link: 'https://newsongoing.com/methanol-ammonia-hybrid-engine-revolution/3747/'
-                    },
-                    {
-                      id: 'regulación2',
-                      text: "El sector de energía renovable en Grecia ha experimentado un crecimiento exponencial. 2,5 GW nuevos solares en 2024. récord en fotovoltaica.",
-                      link: 'https://energiaestrategica.es/greci/'
                     }
                   ].map(item => (
                     <a
